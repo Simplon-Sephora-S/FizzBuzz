@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fizz Buzz</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+/*Exercice Fizzbuzz le programme écrit les nombres entre 0 et 100.
+
+    Pour chaque multiple de 5 il écrit "buzz"
+    Pour chaque multiple de 7 il écrit "fizz"
+    Pour chaque multiple de 5 et 7 il écrit "fizzbuzz"
+
+Vous pouvez essayer d'utiliser le modulo %
+*/
+for(var x = 0 ; x<100 ; x++){
+
+  if(x%5===0 && x%7===0)
+  {
+    console.log(x + ": fizzbuzz");
+  }
+
+  else if (x%7===0) {
+    console.log(x + ":fizz");
+  }
+  else if(x%5===0)
+  {
+    console.log(x + ":buzz");
+  }
+
+  else{
+    console.log(x +" : oups");
+  }
+
+
+}
+
+
+
+
+
+    </script>
+  </body>
+</html>
